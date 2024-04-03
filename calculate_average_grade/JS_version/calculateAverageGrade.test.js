@@ -3,7 +3,7 @@
 // THIS DOESN'T WORK
 // import calculateAverageGrade from './calculateAverageGrade';
 // BUT THIS DOES
-const calculateAverageGrade = require('./calculateAverageGrade').default;
+const calculateAverageGrade = require('./calculateAverageGrade')
 
 describe('calculateAverageGrade', function() {
 
