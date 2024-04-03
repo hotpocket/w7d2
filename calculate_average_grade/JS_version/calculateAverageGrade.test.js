@@ -1,15 +1,24 @@
 describe('calculateAverageGrade', function() {
 
     it('should calculate average grade for positive grades', function() {
-        // Test stub
+        let someGrades = [1,2,3,4,5];
+        let result = calculateAverageGrade(someGrades);
+        let expected = 3;
+        expect(result).toBe(expected);
     });
 
     it('should calculate average grade for negative grades', function() {
-        // Test stub
+        let someGrades = [-1,-2,-3,-4,-5];
+        let result = calculateAverageGrade(someGrades);
+        let expected = -3;
+        expect(result).toBe(expected);
     });
 
     it('should return 0 for empty list of grades', function() {
-        // Test stub
+        let someGrades = [];
+        let result = calculateAverageGrade(someGrades);
+        let expected = 0;
+        expect(result).toBe(expected);
     });
 
 });

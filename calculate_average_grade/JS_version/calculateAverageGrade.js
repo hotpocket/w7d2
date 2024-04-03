@@ -1,3 +1,4 @@
 function calculateAverageGrade(grades) {
-    // Function stub
+    return grades.length === 0 ?
+        0 : grades.reduce((accum, curVal) => accum + curVal) / grades.length;
 }
