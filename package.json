@@ -1,5 +1,13 @@
 {
-  "dependencies": {
+  "name": "Test Driven Development",
+  "version": "1.0.0",
+  "description": "write some code and test it",
+  "scripts": {
+    "start": "node .js",
+    "test": "npx jest --verbose"
+  },
+  "devDependencies": {
     "jest": "^29.7.0"
   }
 }
+

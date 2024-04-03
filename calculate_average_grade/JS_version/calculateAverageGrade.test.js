@@ -1,3 +1,10 @@
+// --- jest issues ---
+// https://stackoverflow.com/questions/35756479/does-jest-support-es6-import-export
+// THIS DOESN'T WORK
+// import calculateAverageGrade from './calculateAverageGrade';
+// BUT THIS DOES
+const calculateAverageGrade = require('./calculateAverageGrade').default;
+
 describe('calculateAverageGrade', function() {
 
     it('should calculate average grade for positive grades', function() {
