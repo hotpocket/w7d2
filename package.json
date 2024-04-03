@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "write some code and test it",
   "scripts": {
-    "test": "npx jest --verbose"
+    "test": "echo 'JAVASCRIPT TESTS';echo; npx jest --verbose ;echo;echo 'PYTHON TESTS';echo; python3 ./calculate_average_grade/python_version/test_calculate_average_grade.py"
   },
   "devDependencies": {
     "jest": "^29.7.0"
