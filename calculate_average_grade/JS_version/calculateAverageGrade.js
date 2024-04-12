@@ -1,3 +1,9 @@
+/**
+ * Calculates the average grade from an array of grades.
+ *
+ * @param {number[]} grades - An array of grades.
+ * @returns {number} - The average grade.
+ */
 function calculateAverageGrade(grades) {
     return grades.length === 0 ?
         0 : grades.reduce((accum, curVal) => accum + curVal) / grades.length;
