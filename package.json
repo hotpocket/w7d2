@@ -1,9 +1,9 @@
 {
-  "name": "Test Driven Development",
+  "name": "test-driven-development",
   "version": "1.0.0",
   "description": "write some code and test it",
   "scripts": {
-    "test": "echo 'JAVASCRIPT TESTS';echo; npx jest --verbose ;echo;echo 'PYTHON TESTS';echo; python3 ./calculate_average_grade/python_version/test_calculate_average_grade.py"
+    "test": "./run_js_tests.sh; echo ; ./run_python_tests.sh"
   },
   "devDependencies": {
     "jest": "^29.7.0"
